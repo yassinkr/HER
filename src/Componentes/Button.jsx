@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom'; 
-const Button = ({rounded , filled,text ,navigate_to}) => {
+const Button = ({rounded , filled,text ,navigate_to , onClick}) => {
     const navigate = useNavigate()
 
     const handleClick = () => {
-        navigate(navigate_to);
+       if(navigate_to){ navigate(navigate_to);}
+         else{onClick();}
     }
     
     return (
@@ -22,5 +23,6 @@ Button.propTypes = {
     filled: PropTypes.bool,
     text: PropTypes.string,
     navigate_to: PropTypes.string,
+    onClick: PropTypes.func,
 };
 export default Button;
