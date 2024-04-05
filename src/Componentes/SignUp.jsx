@@ -29,7 +29,7 @@ const SignUp = () => {
                   <Button filled={true} rounded={false} text={"Continuer"}/>
                 </div>
                 <div className="w-full h-11 flex justify-center items-center text-herBlack">vous avez déja un compte ? 
-                <Link to="/login" className="underline font-bold" >Se connecter</Link>
+                <Link to="/" className="underline font-bold" >Se connecter</Link>
                 </div>
             </div>
         </div>
