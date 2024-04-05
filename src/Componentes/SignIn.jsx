@@ -1,5 +1,7 @@
 import Navbar from "./Navbar"
 import Button from "./Button"
+import { Link } from 'react-router-dom';
+
 const SignIn = () => {
     
   return (
@@ -12,9 +14,10 @@ const SignIn = () => {
                 <input type="text" className="border-[1px] border-black p-2 mb-3 w-full"/>
                 <label htmlFor="password" className="mb-2 text-herBlack text-[16px]">mot de passe</label>
                 <input type="password" className="border-[1px] border-black p-2 mb-3 w-full"/>
-                <a href="#" className="text-herBlack mb-3 underline">mot de passe oublier ?</a>
-                <div className="w-full h-11"><Button filled={true} rounded={false} text={"Se connecter"}/></div>
-                <div className="w-full h-11 flex justify-center items-center text-herBlack">pas de compte ? <a href="#" className="underline font-bold"> Inscrire</a></div>
+                <Link to="/about" className="text-herBlack mb-3 underline">mot de passe oublier ?</Link>
+                <div className="w-full h-11"><Button filled={true} rounded={false} text={"Se connecter"} /></div>
+                <div className="w-full h-11 flex justify-center items-center text-herBlack">pas de compte ? 
+                <Link to="/Signup" className="underline font-bold" >Inscrire</Link></div>
             </div>
         </div>
     </div>

@@ -1,10 +1,17 @@
-import SingUp from "./Componentes/SingUp"
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import SingUp from "./Componentes/SignUp"
+import SignIn from "./Componentes/SignIn"
 const App = () => {
+
+
+
   return (
-    <div className="w-full flex flex-col justify-center items-center">
-      <SingUp />
-    </div>
+    <BrowserRouter>
+    <Routes>
+    <Route path="/Signup" element={<SingUp />} />
+    <Route path="/login" element={<SignIn />} />
+    </Routes>
+    </BrowserRouter>
   )
 }
 

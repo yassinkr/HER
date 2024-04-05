@@ -1,7 +1,9 @@
 import Navbar from "./Navbar"
 import Check_Box from "./Check_Box"
 import Button from "./Button"
-const SingUp = () => {
+import { Link } from 'react-router-dom';
+
+const SignUp = () => {
   return (
     <div className="w-full h-screen overflow-hidden flex flex-col justify-center items-center" id="SignIn">
         <Navbar />
@@ -26,11 +28,13 @@ const SingUp = () => {
                 <div className="w-full h-11">
                   <Button filled={true} rounded={false} text={"Continuer"}/>
                 </div>
-                <div className="w-full h-11 flex justify-center items-center text-herBlack">vous avez déja un compte ? <a href="#" className="underline font-bold"> Se connecter </a></div>
+                <div className="w-full h-11 flex justify-center items-center text-herBlack">vous avez déja un compte ? 
+                <Link to="/login" className="underline font-bold" >Se connecter</Link>
+                </div>
             </div>
         </div>
     </div>
   )
 }
 
-export default SingUp
+export default SignUp

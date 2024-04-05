@@ -3,7 +3,7 @@ import HamburgerMenu from "./Hamburger_Menu"
 const Navbar = () => {
      
   return (
-    <div className="w-[90%] flex justify-between items-center ">
+    <div className="w-[90%] flex justify-between items-center mt-5">
     <div className="w-full hidden lg:flex justify-between items-center ">
         <div className="hidden lg:flex">
             <ul className="flex justify-between items-center">
