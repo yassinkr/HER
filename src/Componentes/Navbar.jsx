@@ -1,10 +1,10 @@
 import HamburgerMenu from "./Hamburger_Menu"
-
-const Navbar = () => {
+import PropTypes from 'prop-types'
+const Navbar = ({margin_top}) => {
      
   return (
-    <div className="w-[90%] flex justify-between items-center mt-5">
-    <div className="w-full hidden lg:flex justify-between items-center ">
+    <div className={`w-full flex justify-center items-center bg-white mt-${margin_top}`}>
+    <div className="w-[90%] hidden lg:flex justify-between items-center ">
         <div className="hidden lg:flex">
             <ul className="flex justify-between items-center">
                 <li className="p-5">VETEMENT</li>
@@ -29,13 +29,15 @@ const Navbar = () => {
             </ul>
         </div>
     </div>
-    <div className="w-full flex justify-between items-center lg:hidden">
+    <div className="w-full flex justify-center items-center lg:hidden ">
     <HamburgerMenu />
     </div>
     </div>
   )
 }
-
+Navbar.propTypes = {
+    margin_top: PropTypes.number
+}
 
 
 

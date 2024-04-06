@@ -13,6 +13,15 @@ export default {
       '2xl': '1536px',
     },
     extend: {
+      animation: {
+        'blink': 'blink 750ms ease infinit ',
+      },
+      keyframes: {
+        TypeWriter:{
+          '100%': {left:'100%'}
+        },
+       
+      },
       fontFamily: {
         Helvetica: ['Helvetica', 'sans-serif'],
         Bodoni: ['Bodoni Moda', 'serif'],

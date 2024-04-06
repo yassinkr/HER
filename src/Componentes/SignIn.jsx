@@ -6,7 +6,7 @@ const SignIn = () => {
     
   return (
     <div className="w-full h-screen overflow-hidden flex flex-col justify-center items-center" id="SignIn">
-        <Navbar />
+        <Navbar margin_top={3} />
         <div className="flex justify-center w-full h-screen pt-48 ">
             <div className="flex flex-col justify-start items-start max-w-[400px] w-full mx-5">
                 <h1 className="text-2xl font-Bodoni  mb-5 mx-auto">Se connecter / S’inscrire</h1>

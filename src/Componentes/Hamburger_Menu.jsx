@@ -8,7 +8,7 @@ const HamburgerMenu = () => {
   };
 
   return (
-    <div className="relative w-full flex justify-between items-center">
+    <div className="relative w-[90%] flex justify-between items-center">
       <button
         className="text-white p-2 rounded-md focus:outline-none"
         onClick={toggleMenu}
