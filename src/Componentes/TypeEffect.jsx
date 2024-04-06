@@ -27,8 +27,8 @@ const TypeEffect = ({text,isFinished }) => {
   
 
   return (
-    <div>
-       {steps && <h1 className="w-fit font-Bodoni text-[64px] relative">
+    <div className='mx-5'>
+       {steps && <h1 className="w-fit font-Bodoni text-[40px] sm:text-[64px] relative">
   {typedText}
 </h1>}
 </div>
