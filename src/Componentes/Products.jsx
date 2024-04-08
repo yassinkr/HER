@@ -51,7 +51,7 @@ const Products = () => {
                     </li>
                 ))}
             </ul>
-            <ul className="flex flex-col justify-center items-center lg:hiddentext-center">
+            <ul className="flex flex-col justify-center items-center lg:hidden text-center">
             {products.map((product) => (
                <li key={product.id} className="w-full"> <Accordion product={product} /></li>
             ))}
