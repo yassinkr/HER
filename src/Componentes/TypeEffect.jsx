@@ -10,12 +10,10 @@ const TypeEffect = ({text,isFinished }) => {
           if (currentIndex < text.length) {
               setTypedText((prevText) => prevText + text[currentIndex]);
               setCurrentIndex((prevIndex) => prevIndex + 1);
-              isFinished(false);
           } else {
               clearInterval(interval); // Stop the interval when all characters are typed
               isFinished(true); // Execute the isFinished function
-              let typing= document.getElementsByTagName('h1');
-              typing.style.setProperty('--displayed', 'none');
+
           }
       }, 150); // Adjust the delay here (e.g., increase for slower typing, decrease for faster typing)
   
@@ -43,7 +41,7 @@ TypeEffect.propTypes = {
     the_lines_before: PropTypes.number.isRequired,
     text_before: PropTypes.string.isRequired,
     bg_color: PropTypes.string.isRequired,  
-    isFinished: PropTypes.func
+    isFinished: PropTypes.func.isRequired, 
 };
 
 

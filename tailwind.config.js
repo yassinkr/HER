@@ -32,6 +32,8 @@ export default {
         herBeige: '#F2EBD9',
         herPurple: '#E2D8E8',
         herBlack:'#464646',
+        herDarkBrown: '#56524D',
+        herRed: '#C30000',
       },
     },
   },

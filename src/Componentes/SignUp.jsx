@@ -10,8 +10,8 @@ const SignUp = () => {
   }
   return (
     <div className="w-full h-screen overflow-hidden flex flex-col justify-center items-center" id="SignIn">
-        <Navbar margin_top={3} />
-       {!next &&<div className="flex justify-center w-full h-screen pt-48 ">
+        <Navbar  profile={false} />
+       {!next && <div className="flex justify-center w-full h-screen pt-48 ">
             <div className="flex flex-col justify-start items-start max-w-[300px] w-full mx-5">
                 <h1 className="text-2xl font-Bodoni  mb-5 mx-auto">S’inscrire</h1>
                 <label htmlFor="brand" className="mb-2 text-herBlack text-[16px] ">nom du brand :</label>
@@ -38,7 +38,7 @@ const SignUp = () => {
             </div>
         </div>}
 
-        {next &&<div className="flex justify-center w-full h-screen pt-48 ">
+        {next && <div className="flex justify-center w-full h-screen pt-48 ">
             <div className="flex flex-col justify-start items-start max-w-[300px] w-full mx-5">
                 <h1 className="text-2xl font-Bodoni  mb-5 mx-auto">S’inscrire</h1>
                 <label htmlFor="email" className="mb-2 text-herBlack text-[16px] ">adresse-email</label>
