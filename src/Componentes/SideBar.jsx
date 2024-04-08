@@ -5,7 +5,7 @@ const SideBar = ({firstName, LastName }) => {
     const handleClick = (navigate_to) => {
         navigate(navigate_to);} 
   return (
-    <div className=' text-white text-center text-lg font-Bodoni bg-herDarkBrown w-fit h-full py-10 flex flex-col justify-start items-center'>
+    <div className=' fixed left-0 top-0 text-white text-center text-lg font-Bodoni bg-herDarkBrown w-fit h-full py-10 flex flex-col justify-start items-center'>
         <div className=" mx-5 pt-5 pb-20 w-16"><div className='flex justify-center items-center'><svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 <rect x="0.5" width="40" height="40" fill="url(#pattern0_558_162)"/>
 <defs>
