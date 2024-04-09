@@ -21,12 +21,12 @@ const SideBar = ({firstName, LastName }) => {
        
         <ul className='h-72 flex flex-col justify-between items-center'>
           
-           <li className="flex flex-col justify-center items-center mx-3">
+           <li className="flex flex-col justify-center items-center mx-3" onClick={()=>handleClick("/")}>
             <div><svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M8.4 18V11.6471H12.6V18H17.85V9.52941H21L10.5 0L0 9.52941H3.15V18H8.4Z" fill="white"/>
 </svg></div>
 <p>Home</p></li>
-           <li className="flex flex-col justify-center items-center">
+           <li className="flex flex-col justify-center items-center" onClick={()=>handleClick("/Myprofile/products/Liste")}>
             <div><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 <rect width="25" height="25" fill="url(#pattern0_558_168)"/>
 <defs>
@@ -36,7 +36,7 @@ const SideBar = ({firstName, LastName }) => {
 <image id="image0_558_168" width="48" height="48" xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAApElEQVR4nO3TQQoCMRBE0T6Irj2LeFLdeCd1KeJ4gS+DLoXJRJxu4b91CF2pToQklQLsgAudGu7vdQa2LQHGgxQMMDq1BPhK9v1hgAk2MMUVyl4hSS+/+mSLfV4M8JkNtKKYmItiwgDJwgaShQ0kCxtIFjaQLGwgWdjAHzbwoI57T4Ajdex7AmyAW/bkwBVYzQ7wDrEGDsCQMPgwvnz38JIUS3gC5tbg8uc3CIMAAAAASUVORK5CYII="/>
 </defs>
 </svg></div><p>Products</p></li>
-           <li className="flex flex-col justify-center items-center">
+           <li className="flex flex-col justify-center items-center" onClick={()=>handleClick("/")}>
             <div><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 <rect width="25" height="25" fill="url(#pattern0_558_171)"/>
 <defs>

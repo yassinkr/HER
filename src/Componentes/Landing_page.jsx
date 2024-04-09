@@ -22,9 +22,9 @@ const Landing_page = () => {
         </div>
         <div className="w-full h-[300px] bg-herBeige">
             <ul className="w-full h-full flex flex-col text-[32px] sm:text-[40px] text-center lg:flex-row">
-                <il className="w-full h-full flex justify-center items-center border-[1px] border-herBlack"><h1>NOUVEAUTÉ</h1></il>
-                <il className="w-full h-full flex justify-center items-center border-[1px] border-herBlack"><h1>DESTOCKAGE</h1></il>
-                <il className="w-full h-full flex justify-center items-center border-[1px] border-herBlack"><h1>RECOMMENDÉ</h1></il>
+                <li className="w-full h-full flex justify-center items-center border-[1px] border-herBlack"><h1>NOUVEAUTÉ</h1></li>
+                <li className="w-full h-full flex justify-center items-center border-[1px] border-herBlack"><h1>DESTOCKAGE</h1></li>
+                <li className="w-full h-full flex justify-center items-center border-[1px] border-herBlack"><h1>RECOMMENDÉ</h1></li>
             </ul>
         </div>
         <div className="bg-lightBeige w-full h-[200px] relative flex justify-center items-center text-center font-bold text-xl sm:text-2xl">
@@ -40,11 +40,11 @@ const Landing_page = () => {
 
      <div className="bg-lightBeige my-10">             
         <ul className="flex justify-center items-center text-center text-3xl flex-wrap">
-            <il className=" m-5"> <img src="/images/VETEMENT.png"></img> <p className="pt-5">Vetement </p></il>
-            <il className=" m-5"> <img src="/images/BEAUTE.png"></img> <p className="pt-5">Beauté</p></il>
-            <il className=" m-5"> <img src="/images/PARFUM.png"></img> <p className="pt-5">Parfum</p></il>
-            <il className=" m-5"> <img src="/images/MAISON & DECO.png"></img> <p className="pt-5">Maison & deco</p></il>
-            <il className=" m-5"> <img src="/images/ACCESOIRES.png"></img> <p className="pt-5">Accessoires</p></il>
+            <li className=" m-5"> <img src="/images/VETEMENT.png"></img> <p className="pt-5">Vetement </p></li>
+            <li className=" m-5"> <img src="/images/BEAUTE.png"></img> <p className="pt-5">Beauté</p></li>
+            <li className=" m-5"> <img src="/images/PARFUM.png"></img> <p className="pt-5">Parfum</p></li>
+            <li className=" m-5"> <img src="/images/MAISON & DECO.png"></img> <p className="pt-5">Maison & deco</p></li>
+            <li className=" m-5"> <img src="/images/ACCESOIRES.png"></img> <p className="pt-5">Accessoires</p></li>
         </ul>
      </div>
      <div className="w-[60%] h-[100px]flex justify-start items-center text-[40px] sm:text-[64px] py-10 ">
@@ -77,9 +77,9 @@ const Landing_page = () => {
     </div>
     <div className="w-full h-[220px] bg-herBrown text-white text-xl sm:text-2xl">
         <ul className="flex flex-col w-full h-full justify-start items-center">
-            <il className="w-full h-full flex items-center border-b-[1px] border-white px-5"> <p>Accueil -&gt;</p></il>
-            <il className="w-full h-full flex items-center border-b-[1px] border-white px-5"><p>Contactez nous -&gt;</p></il>
-            <il className="w-full h-full flex justify-between items-center px-5"><p>Follow us -&gt;</p>
+            <li className="w-full h-full flex items-center border-b-[1px] border-white px-5"> <p>Accueil -&gt;</p></li>
+            <li className="w-full h-full flex items-center border-b-[1px] border-white px-5"><p>Contactez nous -&gt;</p></li>
+            <li className="w-full h-full flex justify-between items-center px-5"><p>Follow us -&gt;</p>
             <div className="max-w-[200px] w-full flex justify-between items-center">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 <rect width="30" height="30" fill="url(#pattern0_496_250)"/>
@@ -110,7 +110,7 @@ const Landing_page = () => {
 <image id="image0_496_248" width="48" height="48" xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABW0lEQVR4nO2ZO04DMRBATREakgOEQ0BEQZSSDrgDfVAouUhAFNwgFwGi8Ck5QABRw6YIBXrIkiMha7Uhs3h3rPhJW63G4zeedTFrTCKRSKgG2ATOgDEwIzwz4A4Y2NxlN78NPFEfj0C7TOXr3PyCB6AhEbBto4VTiYDteS3cSgQy9PApEVCFSQJCck72/T/WWUpAgfPYBTaA62gFFgAnwHO0AqvmMUlASE7Fd6I+AeAbGAEHQEuTwBwYAl1gq0BAhAks8Ars5sXHIDD3Nx+bwLAoPgaBfS/u2LVUNAJNL+6lKHFsAlPvXUujQNeLO3ISU+DQe9fTKHCxwppXWq/Rzh/W2wO+NArgbp3Oks2/UQITWABX3UvX50339FzbiCtfpUBQzDoKZOjhYy1HiwP00JeO1+18vm4movG6k2i7+Xxd3It/cPySaNj5PHBT0YeduVx9ceUTiUTCVMUPcZTkbMI/460AAAAASUVORK5CYII="/>
 </defs>
 </svg>
-                </div></il>
+                </div></li>
         </ul>
     </div>
     </div>
