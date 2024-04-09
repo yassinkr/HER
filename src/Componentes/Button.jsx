@@ -9,7 +9,7 @@ const Button = ({rounded , filled,text ,navigate_to , onClick}) => {
     }
     
     return (
-        <button className={`w-full h-full font-medium  ${rounded ? 'rounded-[10px]' : ''} ${filled ? 'bg-herBrown text-white' : 'text-herBrown'} border-[1px] border-herBrown`} onClick={handleClick}>
+        <button className={`w-full h-full font-medium px-5  ${rounded ? 'rounded-[10px]' : ''} ${filled ? 'bg-herBrown text-white' : 'text-herBrown'} border-[1px] border-herBrown`} onClick={handleClick}>
         {text}
       </button>
       
