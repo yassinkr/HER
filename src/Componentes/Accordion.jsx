@@ -1,12 +1,16 @@
 import  { useState } from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+import { useNavigate } from 'react-router-dom';
 const Accordion = ({ product}) => {
     const [isActive, setIsActive] = useState(false);
 
     const toggleAccordion = () => {
         setIsActive(!isActive);
     };
+    const navigate = useNavigate()
 
+    const handleClick = (navigate_to) => {
+        navigate(navigate_to);}
     return (
         <div className={`    border-[1px]  mb-[10px] ${isActive ? ' bg-lightBeige' : ''}`}>
             <div className="w-full flex justify-between cursor-pointer p-5 bg-white " onClick={toggleAccordion}>
@@ -21,7 +25,7 @@ const Accordion = ({ product}) => {
             <div className=" w-full flex flex-col justify-around items-center h-48">
                            
                             <div className="w-full flex justify-between items-center font-bold">
-                            <button className="">Edit</button>
+                            <button className="" onClick={() => handleClick(`/Myprofile/products/Edit/${product.id}`)}>Edit</button>
                             <button className="text-herRed" >Delete</button></div>
                            
                            <div className="w-full flex justify-between items-center pb-5"> <p className='font-bold'>stock</p>   <p >{product.stock}</p></div>
