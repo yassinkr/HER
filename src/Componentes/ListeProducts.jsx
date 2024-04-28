@@ -26,7 +26,7 @@ const ListeProducts = () => {
         }
     ]
   return (
-    <div className="w-[90%] flex flex-col  ml-5 font-Bodoni">
+    <div className="w-[90%] flex flex-col  lg:ml-5 font-Bodoni">
         <div className="flex flex-col-reverse lg:flex-row w-full  justify-between mt-24 mb-10 h-28">
         <div className="w-full lg:w-fit flex  justify-between lg:justify-center items-center"><h1 className="text-xl mr-5 font-bold">Mes Produits</h1> 
         <div className="w-24 h-7"> <Button filled={true} text={"Ajouter"} rounded={true}/> </div> </div>

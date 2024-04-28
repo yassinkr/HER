@@ -35,7 +35,7 @@ const EditProduct = () => {
     }
  
   return (
-    <div className="w-full h-screen flex flex-col-reverse lg:flex-row-reverse justify-center pt-10 lg:pt-48 font-Bodoni px-5">
+    <div className="w-full min-h-screen flex flex-col-reverse lg:flex-row-reverse justify-center pt-10 lg:pt-48 font-Bodoni px-5 ">
         <div className="w-full lg:w-[30%] h-fit">
             <div className="w-full h-[200px] border-[1px] border-herBrown">
             <h1 className="text-herBlack text-lg font-bold pl-5 py-3 w-full h-fit border-b-[1px] border-herBrown">image du produit</h1>
