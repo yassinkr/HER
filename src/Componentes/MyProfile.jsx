@@ -7,7 +7,7 @@ const MyProfile = () => {
         LastName: "Doe"
     }   
   return (
-    <div className="pb-16 lg:pl-24 relative w-full min-h-screen flex justify-start bg-lightBeige  items-start ">
+    <div className="pb-16 md:pl-24 relative w-full min-h-screen flex justify-start bg-lightBeige  items-start ">
        <SideBar firstName={user.firstName} LastName={user.LastName}/> 
        <div className="w-full flex flex-col justify-center items-center">
        <Navbar profile={true}/>  
