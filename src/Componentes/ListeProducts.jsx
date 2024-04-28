@@ -27,11 +27,11 @@ const ListeProducts = () => {
     ]
   return (
     <div className="w-[90%] flex flex-col  lg:ml-5 font-Bodoni">
-        <div className="flex flex-col-reverse lg:flex-row w-full  justify-between mt-24 mb-10 h-28">
+        <div className="flex flex-col-reverse lg:flex-row w-full  justify-between mt-12 lg:mt-24 mb-10 h-28">
         <div className="w-full lg:w-fit flex  justify-between lg:justify-center items-center"><h1 className="text-xl mr-5 font-bold">Mes Produits</h1> 
         <div className="w-24 h-7"> <Button filled={true} text={"Ajouter"} rounded={true}/> </div> </div>
         <div className="w-full lg:w-fit flex  justify-between lg:justify-center items-center">
-            <input type="text" placeholder="Rechercher un produit" className="border-[1px] border-herBrown px-3 h-10 w-full rounded-full lg:rounded-nonelg:w-48 "/>
+            <input type="text" placeholder="Rechercher un produit" className="border-[1px] border-herBrown px-3 h-10 w-full rounded-full lg:rounded-none lg:w-48 "/>
            <div className="w-28 lg:w-32 h-8 lg:ml-5 hidden lg:flex"> <Button filled={false} text={"Rechercher"} rounded={true}/> </div>
         </div>
         </div>
